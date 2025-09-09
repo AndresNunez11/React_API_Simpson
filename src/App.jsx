@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { Personaje } from './components/Personaje'
 import { OtrosPersonajes } from './components/otrosPersonajes'
+import logo from './assets/logo.png'
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
       <div>
         <header className='App-header'>
           <div>
-            <img src='./src/assets/logo.png' alt="logo"/>
+            <img src={logo} alt="logo"/>
           </div>        
           <h1 className='title'>Characters</h1>
           {
