@@ -109,7 +109,7 @@ export const OtrosPersonajes = ({ setData, setShowMore, setShowCharacters }) => 
                         </div>
                     </div>
                 </div>
-                {/* Botón volver arriba */}
+                {/* Botón volver arriba proyecto de escritorio */}
                 <div className='row'>
                     <div className="container-buttons">
                         <button className='btn btn-secondary' id='bt_home' onClick={onReset} >
