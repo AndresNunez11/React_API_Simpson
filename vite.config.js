@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/React_API_Simpson/',   // 👈 usa el nombre de tu repo
+  base: '/React_API_Simpson/',  // 👈 nombre de tu repo
 })
+
 
